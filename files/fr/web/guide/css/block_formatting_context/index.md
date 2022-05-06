@@ -12,7 +12,7 @@ original_slug: Web/CSS/Block_formatting_context
 
 Un **contexte de formatage de blocs** (_block formatting context_) est une partie du rendu visuel par le CSS, d'une page web. C'est la région qui délimite la mise en page des blocs et dans laquelle les éléments flottant interagissent les uns avec les autres.
 
-Un contexte de formatage de blocs est créé dans les situations suivantes :
+Un contexte de formatage de blocs est créé par au moins l'un des éléments suivants :
 
 - L'élément racine ou quelque chose qui le contient
 - Les éléments flottants (éléments avec une valeur pour la propriété {{cssxref("float")}} autre que `none`)
